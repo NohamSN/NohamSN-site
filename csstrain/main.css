@@ -1083,7 +1083,7 @@ header.main > :last-child {
 	  text-align: center;
 	  padding: 80px 0;
 	  line-height: normal;
-    transition: 0.7s;
+    transition: 0.6s;
     z-index: 1000;
 	}
 	.menu-center {
@@ -2051,9 +2051,9 @@ button,
 h1.h1-contact{
   margin-top: 23px;
   font-size: 30px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style: italic;
-  color: #888;;
+  color: #333;
+  font-weight: bold;
 }
 
 /*body-contact*/

@@ -1164,6 +1164,22 @@ header.main > :last-child {
   .simple:hover {
     color: #888;
   }
+  .go-shop{
+    position: absolute;
+    right: 0;
+    top: 15px;
+  }
+  img.icon-shop{
+    width: 35px;
+    height: 35px;
+    color: #000;
+  }
+  img.icon-shop:hover{
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+
 
 /* Image */
 .image {
@@ -1623,7 +1639,17 @@ button,
           bottom: -2.25em;
           width: calc(100% + 4.5em); }
         .posts article:nth-last-child(3) {
-          margin-bottom: 4.5em; } }
+          margin-bottom: 4.5em; }
+        .go-shop{
+            position: absolute;
+            right: 0;
+            top: 85px;
+          }
+          img.icon-shop{
+            width: 30px;
+            height: 30px;
+          }
+         }
   @media screen and (max-width: 480px) {
     .posts {
       margin: 0 0 2em 0;
@@ -1639,6 +1665,14 @@ button,
           margin-bottom: 0; }
           .posts article:last-child:after {
             display: none; } }
+        
+   @media screen and (max-width: 365px) {
+    .go-shop{
+      position: absolute;
+      right: 0;
+      top: 75px;
+    }
+  }
 
 /* Wrapper */
 #wrapper {

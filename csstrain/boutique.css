@@ -1498,7 +1498,7 @@ h1.title-shop {
 		
 	}
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 600px){
 	button.btn-panier{
 		margin-top: 5px;
 		height: 30px;
@@ -1556,10 +1556,6 @@ h1.title-shop {
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
 		padding: 2.75em 1.75em 2.75em 1.75em;
-	}
-	.box:hover{
-		transform: scale(1.03);
-		transition-duration: 0.5s;
 	}
 	section.box {
 		margin-bottom: 20px;

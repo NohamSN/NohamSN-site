@@ -1568,6 +1568,18 @@ h1.title-shop {
 			top: 1.75em;
 			margin: -4.5em 0 4.25em -3.5em;
 		}
+		a.new {
+			overflow: hidden; }
+			a.new img {
+			  -moz-transition: -moz-transform 0.5s ease;
+			  -webkit-transition: -webkit-transform 0.5s ease;
+			  -ms-transition: -ms-transform 0.5s ease;
+			  transition: transform 0.5s ease; }
+			a.new:hover img {
+			  -moz-transform: scale(1.075);
+			  -webkit-transform: scale(1.075);
+			  -ms-transform: scale(1.075);
+			  transform: scale(1.075); }
 
 		.box.post header {
 			padding-top: 1em;

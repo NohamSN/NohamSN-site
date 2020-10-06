@@ -1504,6 +1504,7 @@ h1.title-shop {
 	button.btn-panier{
 		margin-top: 5px;
 		height: 30px;
+		border: aqua;
 	}
 	button.connexion{
 		margin-top: 5px;

@@ -1109,7 +1109,7 @@ header.main > :last-child {
   }
   @media screen and (max-width:600px) {
     .show-menu-btn,.hide-menu-btn{
-      font-size: 23px;
+      font-size: 25px;
     }
   }
 

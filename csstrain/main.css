@@ -1057,7 +1057,7 @@ header.main > :last-child {
   }
   .show-menu-btn,.hide-menu-btn{
 	transition: 0.4s;
-	font-size: 30px;
+	font-size: 27px;
 	cursor: pointer;
 	display: none;
   }
@@ -1106,6 +1106,11 @@ header.main > :last-child {
 	#chk:checked ~ .menu{
 	  right: 0;
 	}
+  }
+  @media screen and (max-width:600px) {
+    .show-menu-btn,.hide-menu-btn{
+      font-size: 23px;
+    }
   }
 
 /* Box */

@@ -1469,7 +1469,7 @@ footer, header, hgroup, menu, nav, section {
 	top: 10px;
 	margin-right: 5%;
 }
-.far.fa-bookmark {
+.fi-ctluxl-shopping-bag-thin {
 	font-size: 25px;
 }
 .connexion {
@@ -1478,7 +1478,7 @@ footer, header, hgroup, menu, nav, section {
 	top: 10px;
 	margin-right: 80px;
 }
-.far.fa-user {
+.fi-xtluxl-user-thin {
 	font-size: 25px;
 }
 .title-shop {
@@ -1510,10 +1510,10 @@ h1.title-shop {
 		margin-top: 5px;
 		height: 30px;
 	}
-	.far.fa-user {
+	.fi-xtluxl-user-thin {
 		font-size: 20px;
 	}
-	.far.fa-bookmark{
+	.fi-ctluxl-shopping-bag-thin{
 		font-size: 20px;
 	}
 }

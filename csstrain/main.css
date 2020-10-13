@@ -2049,11 +2049,12 @@ button,
 }
 .mentionslégales h1 {
   color: #111;
-  font-family: 'Roboto Slab';
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-style: normal;
 }
 .mentionslégales h4 {
-	color:  #222;;
+  color:  #222;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .mentionslégales p{
   color: #000;

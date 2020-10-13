@@ -1466,20 +1466,20 @@ footer, header, hgroup, menu, nav, section {
 .btn-panier {
 	position: absolute;
 	right: 0;
-	top: 8px;
+	top: 10px;
 	margin-right: 5%;
 }
-i.fa-shopping-basket {
-	font-size: 15px;
+.far.fa-bookmark {
+	font-size: 25px;
 }
 .connexion {
 	position: absolute;
 	right: 0;
-	top: 8px;
+	top: 10px;
 	margin-right: 80px;
 }
-i.fa-user {
-	font-size: 15px;
+.far.fa-user {
+	font-size: 25px;
 }
 .title-shop {
 	display: flex;
@@ -1509,6 +1509,12 @@ h1.title-shop {
 	button.connexion{
 		margin-top: 5px;
 		height: 30px;
+	}
+	.far.fa-user {
+		font-size: 20px;
+	}
+	.far.fa-bookmark{
+		font-size: 20px;
 	}
 }
 /* Section/Article */

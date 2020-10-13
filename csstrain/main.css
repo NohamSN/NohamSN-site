@@ -1178,7 +1178,7 @@ header.main > :last-child {
   .fi-xnluxl-shopping-cart{
     font-size: 24px;
   }
-  .fi-xnluxl-shopping-cart:hover{
+  .go-shop:hover{
     transform: scale(0.9);
     transition-duration: 0.3s;
     cursor: pointer;

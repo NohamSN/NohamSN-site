@@ -1467,7 +1467,7 @@ footer, header, hgroup, menu, nav, section {
 	position: absolute;
 	right: 0;
 	top: 10px;
-	margin-right: 5%;
+	margin-right: 7%;
 }
 .fi-ctluxl-shopping-bag-thin {
 	font-size: 25px;
@@ -1486,11 +1486,12 @@ footer, header, hgroup, menu, nav, section {
 	justify-content: center;
 }
 h1.title-shop {
-	font-size: 20px;
+	font-size: 25px;
+	letter-spacing: 1.8px;
 	font-weight: 100;
-	border-bottom: 0.3px solid #000;
 	padding-bottom: 15px;
 	margin-bottom: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 @media screen and (max-width: 800px){
 	img.logo-shop {

@@ -1159,8 +1159,7 @@ header.main > :last-child {
     margin-top: 15px;
   }
   .reseau:hover{
-    transform: translateY(-5px);
-    transition-duration: 1s;
+    transition-duration: 0.5s;
   }
   .simple {
     margin: 5px;
@@ -1179,8 +1178,8 @@ header.main > :last-child {
     font-size: 24px;
   }
   .go-shop:hover{
-    transform: scale(0.9);
-    transition-duration: 0.3s;
+    transform: scale(0.95);
+    transition-duration: 0.5s;
     cursor: pointer;
   }
 
@@ -1747,7 +1746,8 @@ button,
     font-weight: 500;
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px; }
+    font-size: 20px;
+  }
   #header .icons {
     text-align: right; }
   @media screen and (max-width: 1680px) {
@@ -2091,7 +2091,9 @@ h1.h1-contact{
   font-size: 30px;
   font-style: italic;
   color: #555;
-  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1.8;
+  
 }
 
 /*body-contact*/

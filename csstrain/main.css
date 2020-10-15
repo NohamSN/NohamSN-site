@@ -1811,7 +1811,7 @@ button,
       width: 100%; }
     h1.about-title {
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      color: #555;
+      color: #222;
     }
     .about-description {
       padding-right: 30px;
@@ -1856,7 +1856,7 @@ button,
 /*SLIDER*/
 #slider {
   margin: 0 auto;
-  width: 800px;
+  width: 950px;
   max-width: 100%;
   text-align: center;
 }
@@ -1950,8 +1950,8 @@ button,
   color: #888;
 }
 #controls label:hover {
-  opacity: 1;
-  color: #000;
+  opacity: 0.3;
+  ;
 }
 #slide1:checked ~ #controls label:nth-child(2),
 #slide2:checked ~ #controls label:nth-child(3),
@@ -2001,7 +2001,7 @@ button,
      margin: 0;
   }
   #slides {
-     max-width: calc(100% - 140px);
+     max-width: calc(100% - 100px);
      margin: 0 auto;
   }
 }

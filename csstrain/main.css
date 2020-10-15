@@ -181,11 +181,11 @@ h6 {
 
 @media screen and (max-width: 1680px) {
   h1 {
-    font-size: 3em; } }
+    font-size: 2.8em; } }
 
 @media screen and (max-width: 980px) {
   h1 {
-    font-size: 3em; } }
+    font-size: 2.8em; } }
 
 @media screen and (max-width: 736px) {
   h1 {
@@ -1178,7 +1178,6 @@ header.main > :last-child {
     font-size: 24px;
   }
   .go-shop:hover{
-    transform: scale(0.95);
     transition-duration: 0.5s;
     cursor: pointer;
   }
@@ -1747,6 +1746,7 @@ button,
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
   }
+
   #header .icons {
     text-align: right; }
   @media screen and (max-width: 1680px) {
@@ -1809,6 +1809,13 @@ button,
       -ms-object-position: center;
       object-position: center;
       width: 100%; }
+    h1.about-title {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #555;
+    }
+    .about-description {
+      padding-right: 30px;
+    }
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
@@ -2044,7 +2051,7 @@ button,
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 /*page mentions-légales*/
 .mentionslégales{
-  margin: 60px;
+  margin: 70px;
 }
 .mentionslégales h1 {
   color: #111;

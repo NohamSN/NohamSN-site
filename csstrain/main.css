@@ -1096,6 +1096,7 @@ header.main > :last-child {
 	  align-items: center;
 	  padding: 40px;
     margin-right: 10%;margin-left: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	}
 	.hide-menu-btn{
 	  position: absolute;

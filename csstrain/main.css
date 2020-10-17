@@ -1307,6 +1307,13 @@ header.main > :last-child {
     width: 100%; }
     .image.main img {
       width: 100%; }
+  .main-background {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: auto;
+    background: #333;
+  }
+
 
 a.image {
   overflow: hidden; }

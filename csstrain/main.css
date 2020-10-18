@@ -76,7 +76,8 @@ input, select, textarea {
 /* Basic */
 
 	html {
-		box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-y: hidden;
 	}
 
 	*, *:before, *:after {
@@ -86,8 +87,8 @@ input, select, textarea {
 	body {
 		background-color: #000;
     background-image: url("../imgtrain/code-img.jpg"), url("");
-    max-width: 100vw;
-    max-height: 100vh;
+    width: max-content;
+    height: max-content;
     overflow-y: hidden;
 	}
 

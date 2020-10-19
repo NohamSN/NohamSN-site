@@ -61,9 +61,9 @@ a.btn-discover{
   transition: 0.5s;
 }
 a.btn-discover:hover{
-  transition-duration: 0.2s;
+  transition-duration: 2s;
   background: none;
-  border: 2px solid #ffeba7;
+  border: 0.5px solid #ffeba7;
 }
 
 [type="checkbox"]:checked,

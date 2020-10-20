@@ -15,54 +15,6 @@ body{
   height: 100vh;
   width: 100%;
 }
-.section-center{
-  position: absolute;
-  top: 50%;
-  left: 0;
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  z-index: 6;
-  text-align: center;
-  transform: translateY(-50%);
-}
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 7vw;
-  line-height: 1;
-  color: #ffeba7;
-  text-align: center;
-  -webkit-text-stroke: 2px #ffeba7;
-  text-stroke: 2px #ffeba7;
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
-  color: transparent;
-  margin-bottom: 8%;
-}
-a.btn-discover{
-  text-decoration: none;
-  padding: 1.5em 6em;
-  height:5em;
-  border-radius:3em;
-  border:none;
-  color:#ffeba7;
-  text-transform:uppercase;
-  letter-spacing:2px;
-  font-size:.90em;
-  font-weight: 600;
-  cursor:pointer;
-  background: #353746;
-  background-size: 200% auto;
-  transition: 0.5s;
-}
-a.btn-discover:hover{
-  transition-duration: 2s;
-  background: none;
-  border: 0.5px solid #ffeba7;
-}
-
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked){
   position: absolute;
@@ -275,24 +227,6 @@ a.btn-discover:hover{
 .menu-icon:checked ~ .nav ul li:nth-child(4){
   transition-delay: 1640ms;
 }
-
-
-
-.logo {
-	position: absolute;
-	top: 60px;
-	left: 50px;
-	display: block;
-	z-index: 11;
-	transition: all 250ms linear;
-}
-.logo img {
-	height: 26px;
-	width: auto;
-	display: block;
-}
-
-
 @media screen and (max-width: 991px) {
   .menu-icon:checked + label,
   .menu-icon:not(:checked) + label{
@@ -304,37 +238,11 @@ a.btn-discover:hover{
   .nav{
     right: 30px;
   }
-  h1{
-    font-size: 12vw;
-    -webkit-text-stroke: 2px transparent;
-    text-stroke: 2px transparent;
-    -webkit-text-fill-color: #ffeba7;
-    text-fill-color: #ffeba7;
-    color: #ffeba7;
-    margin-bottom: 100px;
-  }
   .nav ul li a{
     font-size: 6vh;
   }
 }
-@media screen and (max-width: 500px) {
-  a.btn-discover{
-    text-decoration: none;
-    padding: 1.2em 4em;
-    height:5em;
-    border-radius:3em;
-    border:none;
-    color:#ffeba7;
-    text-transform:uppercase;
-    letter-spacing:2px;
-    font-size:.90em;
-    font-weight: 600;
-    cursor:pointer;
-    background: #353746;
-    background-size: 200% auto;
-    transition: 0.5s;
-  }
-}
+
 
 
 

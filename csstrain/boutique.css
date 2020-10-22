@@ -93,11 +93,11 @@ body{
 
 .nav{
   position: fixed;
-  top: 33px;
-  right: 50px;
+  top: 40px;
+  right: 58px;
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 65px;
+  height: 65px;
   padding: 0;
   margin: 0;
   z-index: 9;
@@ -254,7 +254,7 @@ body{
     left: 30px;
   }
   .nav{
-    right: 30px;
+    right: 38px;
   }
   h1{
     font-size: 12vw;
@@ -269,7 +269,6 @@ body{
     font-size: 6vh;
   }
 }
-
 
 
 

@@ -277,7 +277,7 @@ input, select, textarea {
       }
       /*Header-services*/
 #header-services {
-  height: 100vh;
+  height: 50vh;
   background-color: #1f2029;
   background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
   background-position: center;
@@ -286,8 +286,14 @@ input, select, textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  font: 9em/1 Arial;
+  font: 8em/1 Arial;
+}
+h1.header-srv-title {
+  margin-top: 100px;
+  color: #ffeba7;
+}
+span.span-srv-title {
+  border-bottom: 8px solid #ffeba7;
 }
 
       /* Spotlight */
@@ -572,28 +578,13 @@ input, select, textarea {
     position: relative;
     color: #ececee;
     transition: all 250ms linear;
+    text-decoration: none;
   }
   .nav ul li a:hover{
-    text-decoration: none;
     color: #ffeba7;
+    transform: scale(1.02);
+    transition-duration: 0.2s;
   }
-  .nav ul li a:after{
-    display: block;
-    position: absolute;
-    top: 50%;
-    content: '';
-    height: 2vh;
-    margin-top: -1vh;
-    width: 0;
-    left: 0;
-    background-color: #353746;
-    opacity: 0.8;
-    transition: width 250ms linear;
-  }
-  .nav ul li a:hover:after{
-    width: 100%;
-  }
-  
   
   .menu-icon:checked ~ .nav  ul li {
     pointer-events: auto;

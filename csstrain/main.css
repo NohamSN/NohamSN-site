@@ -3184,9 +3184,10 @@
      transition: border-width 100ms ease;
    }
    
-   .nav-menu-link.small-caps-text:hover {
+  .nav-menu-link.small-caps-text:hover {
      border-bottom-style: solid;
      border-bottom-width: 1.5px;
+     transition-duration: 1s;
    }
    
    .nav-menu-link.small-caps-text:active {

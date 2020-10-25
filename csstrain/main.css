@@ -3312,34 +3312,14 @@
    .license-table {
      text-decoration: none;
    }
-   
-   .hero-main {
-     display: -webkit-box;
-     display: -webkit-flex;
-     display: -ms-flexbox;
-     display: flex;
-     min-height: 800px;
-     padding-right: 100px;
-     padding-left: 100px;
-     -webkit-box-align: center;
-     -webkit-align-items: center;
-     -ms-flex-align: center;
-     align-items: center;
-     background-image: url('../imgtrain/grey-background.jpg');
-     background-position: 0% 50%;
-     background-size: auto 1280px;
-     background-repeat: no-repeat;
+   .main-section {
+     height: 100vh;
+     width: 100%;
+     background: #aaa;
+     margin-bottom: 5%;
+     background: cover;
+     background:#AAADB0;
    }
-   
-   .hero-content {
-     max-width: 420px;
-     color: #fff;
-   }
-   
-   .hero-header {
-     margin-bottom: 12px;
-   }
-   
    .large-text {
      font-size: 18px;
      line-height: 28px;

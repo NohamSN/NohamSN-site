@@ -2682,7 +2682,6 @@
      padding-right: 60px;
      padding-left: 60px;
    }
-   
    .row.nav-flex {
      position: relative;
      display: -webkit-box;
@@ -2734,8 +2733,7 @@
    
    .section {
      padding-top: 0px;
-     padding-bottom: 45px;
-     min-height: 100vh;
+     padding-bottom: 30px;
    }
    
    .section.hero {
@@ -3415,7 +3413,7 @@
      display: -ms-flexbox;
      display: flex;
      overflow: hidden;
-     height: 800px;
+     height: 100vh;
      -webkit-box-orient: vertical;
      -webkit-box-direction: normal;
      -webkit-flex-direction: column;

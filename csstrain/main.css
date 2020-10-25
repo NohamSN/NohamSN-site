@@ -2579,7 +2579,8 @@
      -webkit-flex-direction: column;
      -ms-flex-direction: column;
      flex-direction: column;
-     font-family: Inter, sans-serif;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: 300;
      color: #101010;
      font-size: 16px;
      line-height: 25px;
@@ -2591,8 +2592,8 @@
      margin-bottom: 0px;
      font-size: 42px;
      line-height: 50px;
-     font-weight: 700;
-     letter-spacing: -1.8px;
+     font-weight: 500;
+     letter-spacing: 0.8px;
    }
    
    h2 {
@@ -2600,8 +2601,8 @@
      margin-bottom: 8px;
      font-size: 34px;
      line-height: 46px;
-     font-weight: 700;
-     letter-spacing: -1.3px;
+     font-weight: 500;
+     letter-spacing: 0.8px;
    }
    
    h3 {
@@ -2732,8 +2733,8 @@
    }
    
    .section {
-     padding-top: 80px;
-     padding-bottom: 80px;
+     padding-top: 0px;
+     padding-bottom: 45px;
    }
    
    .section.hero {
@@ -3178,30 +3179,10 @@
    .nav-menu-link.last {
      margin-right: 0px;
    }
-   
-   .nav-menu-link.small-caps-text {
-     -webkit-transition: border-width 100ms ease;
-     transition: border-width 100ms ease;
-   }
-   
   .nav-menu-link.small-caps-text:hover {
-     border-bottom-style: solid;
-     border-bottom-width: 1.5px;
-     transition-duration: 1s;
-   }
-   
-   .nav-menu-link.small-caps-text:active {
-     border-bottom-style: solid;
-   }
-   
-   .nav-menu-link.small-caps-text:focus {
-     border-bottom-style: solid;
-   }
-   
-   .nav-menu-link.small-caps-text.w--current {
-     border-bottom-style: solid;
-     border-bottom-width: 1.5px;
-   }
+   color: #999;
+   transition-duration: 0.5s;
+}
    
    .navbar {
      position: -webkit-sticky;
@@ -4260,8 +4241,8 @@
        grid-template-columns: 1fr 1fr;
      }
      .section {
-       padding-top: 50px;
-       padding-bottom: 60px;
+       padding-top: 10px;
+       padding-bottom: 35px;
      }
      .style-guide-body {
        grid-row-gap: 30px;
@@ -4598,8 +4579,8 @@
        grid-template-columns: 1fr;
      }
      .section {
-       padding-top: 40px;
-       padding-bottom: 60px;
+       padding-top: 10px;
+       padding-bottom: 35px;
      }
      .section.hero {
        padding-bottom: 40px;

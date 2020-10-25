@@ -2735,6 +2735,7 @@
    .section {
      padding-top: 0px;
      padding-bottom: 45px;
+     min-height: 100vh;
    }
    
    .section.hero {
@@ -3229,7 +3230,7 @@
    
    .cart-button {
      position: relative;
-     padding-top: 10px;
+     padding-top: 8px;
      padding-bottom: 10px;
      background-color: transparent;
    }
@@ -3349,7 +3350,6 @@
    .large-text.hero-blurb {
      margin-bottom: 30px;
    }
-   
    .product-header {
      display: -webkit-box;
      display: -webkit-flex;
@@ -4579,7 +4579,7 @@
        grid-template-columns: 1fr;
      }
      .section {
-       padding-top: 25px;
+       padding-top: 10px;
        padding-bottom: 35px;
      }
      .section.hero {

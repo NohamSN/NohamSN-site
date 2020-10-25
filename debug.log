@@ -142,3 +142,4 @@
 [1025/014034.825:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
 [1025/014034.825:ERROR:process_reader_win.cc(123)] NtOpenThread: {Accès refusé} Un processus a demandé l’accès a un objet, mais il ne bénéficie pas des autorisations nécessaires. (0xc0000022)
 [1025/014034.825:ERROR:exception_snapshot_win.cc(99)] thread ID 85052 not found in process
+[1025/103235.003:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)

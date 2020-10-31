@@ -3008,6 +3008,7 @@
    
    .footer-subs-blurb {
      margin-bottom: 25px;
+     letter-spacing: 1.05;
    }
    
    .footer-subs-email {
@@ -3526,6 +3527,7 @@
      padding-right: 29px;
      padding-left: 29px;
      text-align: center;
+     letter-spacing: 1.05;
    }
    
    .subscribe-title {

@@ -3317,12 +3317,14 @@
      text-decoration: none;
    }
    .main-section {
-     height: 100vh;
+     height: 95vh;
      width: 100%;
-     background: #aaa;
      margin-bottom: 5%;
      background: cover;
      background:#AAADB0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
    }
    .large-text {
      font-size: 18px;

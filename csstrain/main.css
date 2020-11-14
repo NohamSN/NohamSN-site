@@ -3228,7 +3228,15 @@
    .nav-social-link.last-child {
      margin-right: 0px;
    }
-   
+   i.fi-cwsuxl-youtube {
+     font-size: 21px;
+   }
+   i.fi-xnsuxl-instagram {
+    font-size: 19.5px;
+  }
+  i.fi-xwsuxl-envelope-solid {
+    font-size: 19.5px;
+  }
    .logo-link {
      border-bottom-style: none;
    }

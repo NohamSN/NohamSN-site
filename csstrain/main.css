@@ -3339,7 +3339,11 @@
 	color: #fff;
   padding: 0 20px;
   background: #101010;
+  background-image: url('../imgtrain/background-site.jpg');
   margin-bottom: 4.5%;
+  background-size:  cover;
+    background-position: center;
+    content: '';
 }
 h1.h1-main {
   font-size: 55px;
@@ -3416,6 +3420,7 @@ a.btn.btn-one{
     font-size: 22px;
   }
 }
+
 
 /*----*/
 

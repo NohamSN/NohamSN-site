@@ -3341,11 +3341,15 @@
   background: #101010;
   margin-bottom: 4.5%;
 }
+h1.h1-main {
+  font-size: 55px;
+}
 h3.h3-main {
   letter-spacing: 1.8;
   font-weight: 300;
-  margin-bottom: 4%;
-  margin-top: 4%;  
+  margin-bottom: 4.5%;
+  margin-top: 4.5%;  
+  font-size: 32px;
 }
 a.btn.btn-one{
   letter-spacing: 1.5;
@@ -3361,6 +3365,7 @@ a.btn.btn-one{
   line-height: 90px;
   transition: all 0.3s;
   padding: 10px 60px;
+  margin-right: 10px;
 }
 .btn::before, .btn::after {
   content: '';
@@ -3376,9 +3381,8 @@ a.btn.btn-one{
 .btn-one::before {
 	left: 4px;
 	z-index: 1;
-  
   opacity: 0;
-  border: 1px solid #eee;
+  border:1px solid #888;
   transform: scale(0.1, 1);
 }
 
@@ -3396,7 +3400,22 @@ a.btn.btn-one{
   transform: scale(1, .1);
   opacity: 0;
 }
-
+@media screen and (max-width: 990px) {
+  h1.h1-main {
+    font-size: 40px;
+  }
+  h3.h3-main {  
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1.h1-main {
+    font-size:  35px;
+  }
+  h3.h3-main {  
+    font-size: 22px;
+  }
+}
 
 /*----*/
 

@@ -4071,6 +4071,7 @@ a.btn.btn-one{
    }
    h1.about-h1 {
     margin-bottom: 40px;
+    font-weight: 400;
   }
   @media screen and (max-width: 1050px){
     h1.about-h1 {

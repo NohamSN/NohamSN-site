@@ -2628,6 +2628,7 @@
    
    p {
      margin-bottom: 0px;
+     font-size: 17.5px;
    }
    
    a {
@@ -3791,9 +3792,7 @@ a.btn.btn-one{
    .container-inner p {
      margin-bottom: 25px;
    }
-   p {
-     font-size: 17px;
-   }
+
    .container-inner h4 {
      margin-bottom: 6px;
    }

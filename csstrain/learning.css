@@ -3289,9 +3289,10 @@
    }
   
    
-   .cart-icon {
-     height: 22px;
-   }
+   .user-icon {
+    height: 38px;
+    width: 28px;
+  }
    
    .license-header {
      padding-top: 25px;
@@ -5353,3 +5354,4 @@ a.btn.btn-one{
        grid-row-end: 4;
      }
    }
+   

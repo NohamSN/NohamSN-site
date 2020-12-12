@@ -3293,6 +3293,12 @@
     height: 38px;
     width: 28px;
   }
+  @media screen and (max-width: 700px){
+    .user-icon {
+      height: 34px;
+      width: 24px;
+    }
+   }
    
    .license-header {
      padding-top: 25px;

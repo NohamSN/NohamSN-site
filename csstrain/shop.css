@@ -3301,10 +3301,9 @@
     height: 43px;
     width: 33px;
    }
-   @media screen and (max-width: 700px){
+   @media screen and (max-width: 991px){
     .cart-icon {
-      height: 39.5px;
-      width: 29.5px;
+      display: none;
     }
    }
    .license-header {

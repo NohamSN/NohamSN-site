@@ -3294,12 +3294,11 @@
     height: 38px;
     width: 28px;
   }
-  @media screen and (max-width: 700px){
-    .user-icon {
-      height: 35.5px;
-      width: 25.5px;
-    }
+  @media screen and (max-width: 991px){
+   .user-icon {
+     display: none;
    }
+  }
    
    .license-header {
      padding-top: 25px;

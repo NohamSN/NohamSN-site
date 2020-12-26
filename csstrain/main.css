@@ -30,6 +30,9 @@
      line-height: 25px;
      letter-spacing: -0.3px;
    }
+   html {
+    scroll-behavior: smooth;
+  }
    ::selection {
     background-color: #333;
     color: #fff;
@@ -3464,7 +3467,10 @@ a.btn.btn-one{
   }
 }
 
-
+#section-services:target {
+  padding-top: 7.5em; 
+  margin-top: -7.5em; 
+}
 /*----*/
 
    .large-text {

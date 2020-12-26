@@ -30,7 +30,9 @@
      line-height: 25px;
      letter-spacing: -0.3px;
    }
-   
+   html {
+    scroll-behavior: smooth;
+  }
    ::selection {
     background-color: #333;
     color: #fff;

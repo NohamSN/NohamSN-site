@@ -50,5 +50,9 @@
   background: rgba(10, 10, 10, 0.741) !important;
   transition-duration: 0.5s;
 }
+.w-slider-dot {
+  width: 1.5em;
+  height: 1.5em;
+}
 
 

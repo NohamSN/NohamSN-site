@@ -40,5 +40,15 @@
 .section.footer-section {
   padding-bottom: 50px;
 }
+ 
+.footer-button {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.footer-button:hover{
+  background: rgba(10, 10, 10, 0.741) !important;
+  transition-duration: 0.5s;
+}
 
 
